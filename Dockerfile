@@ -1,4 +1,5 @@
-FROM  openjdk:8
+FROM openjdk:8-jre-alpine
+
 
 RUN mkdir -p apps/applications/dn-notification-app
 Run mkdir -p apps/applications/logs
